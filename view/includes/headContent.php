@@ -7,6 +7,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
   />
     <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
-    <link rel="stylesheet" href="/App/css/styles.css" />
+    <link rel="stylesheet" href='<?php echo dirname(__DIR__)."/css/styles.css" ?>' />
+
 
 <title>Shopify</title>
