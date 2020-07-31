@@ -2,10 +2,14 @@
     function insertAnimation($delay,$repeat,$animation,$price)
     {
              //Performing saving actions on DB..........
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "animation";
+        // $servername = "localhost";
+        // $username = "root";
+        // $password = "";
+        // $dbname = "animation";
+        $servername = "sql12.freemysqlhosting.net";
+        $username = "sql12357796";
+        $password = "99pzu5LXAM";
+        $dbname = "sql12357796";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);

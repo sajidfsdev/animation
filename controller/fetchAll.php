@@ -1,10 +1,16 @@
 <?php
     function fetchAnimationInfo()
     {
-        $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "animation";
+//         $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "animation";
+
+$servername = "sql12.freemysqlhosting.net";
+$username = "sql12357796";
+$password = "99pzu5LXAM";
+$dbname = "sql12357796";
+
 $animationData=array();
 
 // Create connection
