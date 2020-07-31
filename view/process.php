@@ -14,7 +14,7 @@
 
  if($_POST["animations"]=="none")
  {
-     return header("location:/App");
+     return header("location:https://animationbtn.herokuapp.com");
  }
 
  $price=Animation::$pricing[array_search($_POST["animations"],Animation::$animations)];
@@ -24,7 +24,7 @@
 
     if(insertAnimation($delay,$repeat,$animation,$price))
     {
-        return header("location:/App/view/main.php");
+        return header("location:https://animationbtn.herokuapp.com/view/main.php");
     }
     else
     {
